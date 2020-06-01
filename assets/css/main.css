@@ -1,0 +1,132 @@
+body {
+  background-color: #292e39;
+  color: #ECEFF4;
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 65px;
+}
+
+.appbar {
+  background-color: #2E3440;
+  margin-bottom: 40px;
+  padding: 15px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.appbar-title {
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+.appbar-info {
+  color: #88C0D0;
+}
+
+.header {
+  font-size: 2em;
+  font-weight: 300;
+}
+
+#renderBookList ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#renderBookList li {
+  background-color: #3B4252;
+  border-radius: 3px;
+  padding: 20px 15px;
+  margin-bottom: 5px;
+  border: solid 1px transparent;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#renderBookList li:hover {
+  border: solid 1px #88C0D0;
+}
+
+.book-title {
+  font-size: 1.3em;
+}
+
+.book-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.book-info .info-desc {
+  margin-right: 5px;
+  color: #88C0D0;
+}
+
+#pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+.page-btn {
+  color: #4C566A;
+  background-color: #88C0D0;
+  outline: none;
+  border: solid 1px #88C0D0;
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+  margin-right: 5px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.page-btn:hover {
+  color: #2E3440;
+}
+
+.page-btn.active {
+  color: #ECEFF4;
+  background-color: #2E3440;
+  border: solid 1px #4C566A;
+}
+
+.page-btn.active:hover {
+  border-color: #88C0D0;
+  color: #5E81AC;
+}
+
+.btn-prev {
+  color: #88C0D0;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+
+.book-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 30px;
+}
+
+.isbn {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+/*# sourceMappingURL=main.css.map */

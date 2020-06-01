@@ -1,0 +1,115 @@
+@import './variables.scss';
+
+body {
+    background-color: $nord-004;
+    color: $primary;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 65px;
+}
+
+.appbar {
+    background-color: $nord-000;
+    margin-bottom: 40px;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.appbar-title {
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+.appbar-info {
+    color: $nord-201;
+}
+
+.header {
+    font-size: 2em;
+    font-weight: 300;
+}
+
+#renderBookList ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#renderBookList li {
+    background-color: $nord-001;
+    border-radius: 3px;
+    padding: 20px 15px;
+    margin-bottom: 5px;
+    border: solid 1px transparent;
+    transition: all 0.3s ease;
+
+}
+#renderBookList li:hover {
+    border: solid 1px $nord-201;
+}
+.book-title {
+    font-size: 1.3em;
+}
+
+.book-info {
+    display: flex;
+}
+.book-info .info-desc {
+    margin-right: 5px;
+    color: $nord-201;
+}
+
+
+#pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.page-btn {
+    color: $nord-003;
+    background-color: $nord-201;
+    outline: none;
+    border: solid 1px $nord-201;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    margin-right: 5px;
+    transition: all 0.3s ease;
+}
+.page-btn:hover {
+    color: $nord-000;
+}
+
+.page-btn.active {
+    color: $primary;
+    background-color: $nord-000 ;
+    border: solid 1px $nord-003;
+}
+
+.page-btn.active:hover {
+    border-color: $nord-201;
+    color: $nord-203;
+}
+
+.btn-prev {
+    color: $nord-201;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+}
+
+.book-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 30px;
+}
+
+.isbn {
+    justify-content: flex-end;
+}

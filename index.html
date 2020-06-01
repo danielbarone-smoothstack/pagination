@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Coding Challenge</title>
+    <meta name="description" content="Coding Challenge #1">
+    <meta name="author" content="Daniel Barone">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <script src="assets/js/books.js"></script>
+  </head>
+
+  <body>
+    <div class="appbar col-xs-12">
+      <div class="appbar-title">BookList</div>
+      <div class="appbar-info">Daniel Barone</div>
+    </div>
+    <div class="container-fluid">
+      <div class="col-xs-offset-2 col-xs-8">
+        <p class="header">Results</p>
+      </div>
+      <div id="renderBookList" class="col-xs-12">
+      </div>
+      <div id="pagination" class="col-xs-12"></div>
+    </div>
+    
+  </body>
+
+  <script type="text/javascript">
+    buildList();
+  </script>
+
+</html>

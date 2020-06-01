@@ -1,0 +1,6 @@
+.vscode
+assets/css/*.map
+assets/css/variables.css
+dist
+docs/*
+fonts
